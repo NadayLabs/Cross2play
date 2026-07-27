@@ -1,0 +1,15 @@
+# Utilisé si Amplify « Root directory » = website (sans monorepo)
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands: []
+    build:
+      commands:
+        - echo "Static site — no build step"
+  artifacts:
+    baseDirectory: .
+    files:
+      - "**/*"
+  cache:
+    paths: []

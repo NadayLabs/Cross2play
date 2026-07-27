@@ -2,6 +2,8 @@
 
 Landing page marketing (style sombre tech / blue–cyan–purple), **FR / EN**.
 
+Éditeur : **NADAY LABS** (SAS) · contact@nadaylabs.com · hébergement AWS Amplify.
+
 ## Langues
 
 Sélecteur **FR | EN** dans la barre de navigation (préférence mémorisée dans `localStorage`, défaut selon le navigateur).
@@ -14,10 +16,18 @@ python3 -m http.server 8080
 # → http://localhost:8080
 ```
 
+## Pages
+
+| Chemin | Contenu |
+|--------|---------|
+| `index.html` | Landing |
+| `legal/mentions-legales.html` | Mentions légales (LCEN) |
+| `legal/confidentialite.html` | Politique de confidentialité (RGPD) |
+| `legal/cgu.html` | Conditions générales d’utilisation |
+| `legal/cookies.html` | Cookies / localStorage |
+
+Textes : `js/i18n.js`. Liens produit : dépôt [NadayLabs/Cross2play](https://github.com/NadayLabs/Cross2play).
+
 ## Déploiement
 
-- GitHub Pages / Cloudflare Pages / Netlify : root = `website`.
-
-## Contenu
-
-Textes alignés sur la promesse v1 Steam-first. Les catalogues de traduction sont dans `js/i18n.js`.
+- AWS Amplify / GitHub Pages / Cloudflare Pages / Netlify : root = `website`.

@@ -1,0 +1,18 @@
+# AWS Amplify Hosting — site statique dans website/
+# Doc: monorepo appRoot = dossier de l'app front
+version: 1
+applications:
+  - appRoot: website
+    frontend:
+      phases:
+        preBuild:
+          commands: []
+        build:
+          commands:
+            - echo "Static site — no build step"
+      artifacts:
+        baseDirectory: .
+        files:
+          - "**/*"
+      cache:
+        paths: []

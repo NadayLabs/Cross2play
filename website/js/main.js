@@ -30,10 +30,17 @@
       const key = el.getAttribute("data-i18n-html");
       el.innerHTML = t(lang, key);
     });
-    const title = t(lang, "meta.title");
-    document.title = title;
+    const titleEl = document.querySelector("title[data-i18n]");
+    if (titleEl) {
+      document.title = t(lang, titleEl.getAttribute("data-i18n"));
+    } else {
+      document.title = t(lang, "meta.title");
+    }
     const meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute("content", t(lang, "meta.description"));
+    if (meta) {
+      const metaKey = meta.getAttribute("data-i18n") || "meta.description";
+      meta.setAttribute("content", t(lang, metaKey));
+    }
 
     document.querySelectorAll("[data-lang-btn]").forEach((btn) => {
       const active = btn.getAttribute("data-lang-btn") === lang;
