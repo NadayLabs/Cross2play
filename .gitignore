@@ -1,0 +1,32 @@
+.DS_Store
+build/
+dist/
+DerivedData/
+*.xcuserdata/
+*.xcworkspace/xcuserdata/
+Cross2play.xcodeproj/project.xcworkspace/xcuserdata/
+Cross2play.xcodeproj/xcuserdata/
+.xcodegen/
+RuntimeBuild/
+*.dmg
+*.zip
+!docs/**
+
+# Artefacts runtime locaux (ne pas committer les tarballs lourds)
+artifacts/
+runtime-packages/
+*.tar.xz
+*.tar.gz
+
+# Lab / machine-specific
+Vendor/crossover-sources-*/
+Vendor/**/build/
+
+# Secrets notarization
+.notarize.env
+*.p12
+AuthKey_*.p8
+
+# Site marketing (dépôt privé séparé)
+website/
+amplify.yml

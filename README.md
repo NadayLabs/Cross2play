@@ -72,12 +72,7 @@ Runtime FOSS + DXMT (mainteneurs) :
 
 ## Site web
 
-Landing marketing dans [`website/`](website/) (FR / EN) :
-
-```bash
-cd website && python3 -m http.server 8080
-# → http://localhost:8080
-```
+Le site marketing Cross2play est **privé** (dépôt séparé, déployé via AWS Amplify) et **n’est pas inclus** dans ce dépôt open-source.
 
 ## Chemins locaux
 
