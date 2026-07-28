@@ -20,7 +20,7 @@ Gestionnaire de bottles Wine pour **macOS Apple Silicon** (14+), orienté **Stea
 
 - Valorant, Fortnite, Call of Duty online, FC / Battlefield récents, etc. (anti-triche noyau)
 - Parité CrossOver / Whisky sur « tous les jeux Windows »
-- Launcher Warframe avec interface web CEF parfaite sous Wine
+- Interface web Chromium (CEF) parfaite pour tous les launchers Windows sous Wine
 
 ## Prérequis
 
