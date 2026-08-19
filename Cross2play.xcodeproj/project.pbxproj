@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1010001 /* Cross2playApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010001 /* Cross2playApp.swift */; };
+		A1010002 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010002 /* AppState.swift */; };
+		A1010003 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010003 /* AppLogger.swift */; };
+		A1010004 /* PathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010004 /* PathManager.swift */; };
+		A1010005 /* SystemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010005 /* SystemInfo.swift */; };
+		A1010006 /* SecureDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010006 /* SecureDownloader.swift */; };
+		A1010007 /* RuntimeManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010007 /* RuntimeManifest.swift */; };
+		A1010008 /* RuntimeManifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B1010008 /* RuntimeManifest.json */; };
+		A1010009 /* Bottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010009 /* Bottle.swift */; };
+		A1010010 /* ComponentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010010 /* ComponentManager.swift */; };
+		A1010011 /* BottleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010011 /* BottleManager.swift */; };
+		A1010012 /* RuntimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010012 /* RuntimeManager.swift */; };
+		A1010013 /* WineProcessSupervisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010013 /* WineProcessSupervisor.swift */; };
+		A1010014 /* HealthMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010014 /* HealthMonitor.swift */; };
+		A1010015 /* BlackScreenDiagnosticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010015 /* BlackScreenDiagnosticEngine.swift */; };
+		A1010016 /* GraphicsCompatibilityResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010016 /* GraphicsCompatibilityResolver.swift */; };
+		A1010017 /* SteamWebRepairService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010017 /* SteamWebRepairService.swift */; };
+		A1010018 /* CompatibilityProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010018 /* CompatibilityProfile.swift */; };
+		A1010019 /* CompatibilityEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010019 /* CompatibilityEngine.swift */; };
+		A1010020 /* GameCompatibility.json in Resources */ = {isa = PBXBuildFile; fileRef = B1010020 /* GameCompatibility.json */; };
+		A1010021 /* LaunchPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010021 /* LaunchPipeline.swift */; };
+		A1010022 /* InstallationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010022 /* InstallationManager.swift */; };
+		A1010023 /* DiagnosticExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010023 /* DiagnosticExporter.swift */; };
+		A1010024 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010024 /* SharedComponents.swift */; };
+		A1010025 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010025 /* ErrorView.swift */; };
+		A1010026 /* InstallProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010026 /* InstallProgressView.swift */; };
+		A1010027 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010027 /* OnboardingView.swift */; };
+		A1010028 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010028 /* LibraryView.swift */; };
+		A1010029 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010029 /* SettingsView.swift */; };
+		A1010030 /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010030 /* MainAppView.swift */; };
+		A1010031 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010031 /* RootView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1010001 /* Cross2play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cross2play.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1010001 /* Cross2playApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cross2playApp.swift; sourceTree = "<group>"; };
+		B1010002 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B1010003 /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
+		B1010004 /* PathManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathManager.swift; sourceTree = "<group>"; };
+		B1010005 /* SystemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInfo.swift; sourceTree = "<group>"; };
+		B1010006 /* SecureDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureDownloader.swift; sourceTree = "<group>"; };
+		B1010007 /* RuntimeManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeManifest.swift; sourceTree = "<group>"; };
+		B1010008 /* RuntimeManifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RuntimeManifest.json; sourceTree = "<group>"; };
+		B1010009 /* Bottle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bottle.swift; sourceTree = "<group>"; };
+		B1010010 /* ComponentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentManager.swift; sourceTree = "<group>"; };
+		B1010011 /* BottleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleManager.swift; sourceTree = "<group>"; };
+		B1010012 /* RuntimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeManager.swift; sourceTree = "<group>"; };
+		B1010013 /* WineProcessSupervisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineProcessSupervisor.swift; sourceTree = "<group>"; };
+		B1010014 /* HealthMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMonitor.swift; sourceTree = "<group>"; };
+		B1010015 /* BlackScreenDiagnosticEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackScreenDiagnosticEngine.swift; sourceTree = "<group>"; };
+		B1010016 /* GraphicsCompatibilityResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsCompatibilityResolver.swift; sourceTree = "<group>"; };
+		B1010017 /* SteamWebRepairService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamWebRepairService.swift; sourceTree = "<group>"; };
+		B1010018 /* CompatibilityProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibilityProfile.swift; sourceTree = "<group>"; };
+		B1010019 /* CompatibilityEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibilityEngine.swift; sourceTree = "<group>"; };
+		B1010020 /* GameCompatibility.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GameCompatibility.json; sourceTree = "<group>"; };
+		B1010021 /* LaunchPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchPipeline.swift; sourceTree = "<group>"; };
+		B1010022 /* InstallationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationManager.swift; sourceTree = "<group>"; };
+		B1010023 /* DiagnosticExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticExporter.swift; sourceTree = "<group>"; };
+		B1010024 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		B1010025 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		B1010026 /* InstallProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallProgressView.swift; sourceTree = "<group>"; };
+		B1010027 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B1010028 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		B1010029 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B1010030 /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
+		B1010031 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1010001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1010001 = {
+			isa = PBXGroup;
+			children = (
+				E1010002 /* Cross2play */,
+				E1010004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1010002 /* Cross2play */ = {
+			isa = PBXGroup;
+			children = (
+				B1010001 /* Cross2playApp.swift */,
+				B1010002 /* AppState.swift */,
+				B1010003 /* AppLogger.swift */,
+				B1010004 /* PathManager.swift */,
+				B1010005 /* SystemInfo.swift */,
+				B1010006 /* SecureDownloader.swift */,
+				B1010007 /* RuntimeManifest.swift */,
+				B1010008 /* RuntimeManifest.json */,
+				B1010009 /* Bottle.swift */,
+				B1010010 /* ComponentManager.swift */,
+				B1010011 /* BottleManager.swift */,
+				B1010012 /* RuntimeManager.swift */,
+				B1010013 /* WineProcessSupervisor.swift */,
+				B1010014 /* HealthMonitor.swift */,
+				B1010015 /* BlackScreenDiagnosticEngine.swift */,
+				B1010016 /* GraphicsCompatibilityResolver.swift */,
+				B1010017 /* SteamWebRepairService.swift */,
+				B1010018 /* CompatibilityProfile.swift */,
+				B1010019 /* CompatibilityEngine.swift */,
+				B1010020 /* GameCompatibility.json */,
+				B1010021 /* LaunchPipeline.swift */,
+				B1010022 /* InstallationManager.swift */,
+				B1010023 /* DiagnosticExporter.swift */,
+				E1010003 /* Views */,
+			);
+			path = Cross2play;
+			sourceTree = "<group>";
+		};
+		E1010003 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1010024 /* SharedComponents.swift */,
+				B1010025 /* ErrorView.swift */,
+				B1010026 /* InstallProgressView.swift */,
+				B1010027 /* OnboardingView.swift */,
+				B1010028 /* LibraryView.swift */,
+				B1010029 /* SettingsView.swift */,
+				B1010030 /* MainAppView.swift */,
+				B1010031 /* RootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1010004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1010001 /* Cross2play.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1010001 /* Cross2play */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G1010001 /* Build configuration list for PBXNativeTarget "Cross2play" */;
+			buildPhases = (
+				H1010001 /* Sources */,
+				D1010001 /* Frameworks */,
+				I1010001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cross2play;
+			productName = Cross2play;
+			productReference = C1010001 /* Cross2play.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		J1010001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F1010001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = G1010002 /* Build configuration list for PBXProject "Cross2play" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1010001;
+			productRefGroup = E1010004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1010001 /* Cross2play */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		I1010001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1010008 /* RuntimeManifest.json in Resources */,
+				A1010020 /* GameCompatibility.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		H1010001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1010001 /* Cross2playApp.swift in Sources */,
+				A1010002 /* AppState.swift in Sources */,
+				A1010003 /* AppLogger.swift in Sources */,
+				A1010004 /* PathManager.swift in Sources */,
+				A1010005 /* SystemInfo.swift in Sources */,
+				A1010006 /* SecureDownloader.swift in Sources */,
+				A1010007 /* RuntimeManifest.swift in Sources */,
+				A1010009 /* Bottle.swift in Sources */,
+				A1010010 /* ComponentManager.swift in Sources */,
+				A1010011 /* BottleManager.swift in Sources */,
+				A1010012 /* RuntimeManager.swift in Sources */,
+				A1010013 /* WineProcessSupervisor.swift in Sources */,
+				A1010014 /* HealthMonitor.swift in Sources */,
+				A1010015 /* BlackScreenDiagnosticEngine.swift in Sources */,
+				A1010016 /* GraphicsCompatibilityResolver.swift in Sources */,
+				A1010017 /* SteamWebRepairService.swift in Sources */,
+				A1010018 /* CompatibilityProfile.swift in Sources */,
+				A1010019 /* CompatibilityEngine.swift in Sources */,
+				A1010021 /* LaunchPipeline.swift in Sources */,
+				A1010022 /* InstallationManager.swift in Sources */,
+				A1010023 /* DiagnosticExporter.swift in Sources */,
+				A1010024 /* SharedComponents.swift in Sources */,
+				A1010025 /* ErrorView.swift in Sources */,
+				A1010026 /* InstallProgressView.swift in Sources */,
+				A1010027 /* OnboardingView.swift in Sources */,
+				A1010028 /* LibraryView.swift in Sources */,
+				A1010029 /* SettingsView.swift in Sources */,
+				A1010030 /* MainAppView.swift in Sources */,
+				A1010031 /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		K1010001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		K1010002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		K1010003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 NadayLabs. All rights reserved.";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadaylabs.cross2play;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		K1010004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 NadayLabs. All rights reserved.";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nadaylabs.cross2play;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G1010001 /* Build configuration list for PBXNativeTarget "Cross2play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				K1010003 /* Debug */,
+				K1010004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G1010002 /* Build configuration list for PBXProject "Cross2play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				K1010001 /* Debug */,
+				K1010002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = J1010001 /* Project object */;
+}

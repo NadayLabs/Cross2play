@@ -1,0 +1,62 @@
+{
+  "version": "2026.08.1",
+  "lastUpdated": "2026-08-01",
+  "entries": [
+    {
+      "appID": 730,
+      "name": "Counter-Strike 2",
+      "status": "playable",
+      "profile": "steam-dxmt-default",
+      "antiCheat": null,
+      "notes": ["Uses DXMT D3D11 backend"]
+    },
+    {
+      "appID": 570,
+      "name": "Dota 2",
+      "status": "verified",
+      "profile": "steam-dxmt-default",
+      "antiCheat": null,
+      "notes": ["Vulkan / D3D11 supported natively"]
+    },
+    {
+      "appID": 1091500,
+      "name": "Cyberpunk 2077",
+      "status": "playable",
+      "profile": "steam-dxmt-default",
+      "antiCheat": null,
+      "notes": ["DirectX 11 / 12 mode via DXMT"]
+    },
+    {
+      "appID": 1172470,
+      "name": "Apex Legends",
+      "status": "unsupported",
+      "profile": "steam-dxmt-default",
+      "antiCheat": {
+        "name": "Easy Anti-Cheat",
+        "bypassable": false,
+        "warningMessage": "Apex Legends requires Easy Anti-Cheat kernel mode, which is unsupported on macOS."
+      },
+      "notes": ["Blocked by kernel EAC"]
+    },
+    {
+      "appID": 230410,
+      "name": "Warframe",
+      "status": "playable",
+      "profile": "steam-dxmt-default",
+      "antiCheat": null,
+      "notes": ["DirectX 11 mode recommended"]
+    },
+    {
+      "appID": 252490,
+      "name": "Rust",
+      "status": "unsupported",
+      "profile": "steam-dxmt-default",
+      "antiCheat": {
+        "name": "Easy Anti-Cheat",
+        "bypassable": false,
+        "warningMessage": "Rust requires Easy Anti-Cheat with kernel driver support on Windows."
+      },
+      "notes": ["Blocked by kernel EAC"]
+    }
+  ]
+}
